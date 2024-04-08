@@ -51,7 +51,8 @@ def summarize_text(text, mistral_key):
     return "Summary feature is currently unavailable."
 
 def main():
-    pdf_path = "exemple.pdf"
+    pdf_path = "exemple.pdf" # EPITECH subject
+
     mistral_key = os.getenv('MISTRAL_API_KEY')
 #   bash command to import you mistral API key:
 #   export MISTRAL_API_KEY="your_mistral_api_key"
